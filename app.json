@@ -1,0 +1,112 @@
+{
+    "name": "⌯ ETALEE ˹🥀˼⁩",
+    "description": "Telegram Music Bot from Team Codexun allows you to stream music trought the telegram voice chat feature.",
+   "logo": "https://telegra.ph/file/b974b7f411766b46b7712.jpg",
+    "keywords": ["telegram music bot", "voice chat", "pytgcalls"],
+    "repository": "https://github.com/bhkvlldu/MusicBot",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "ضع كود بايروجرام حبيبي",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "ايدي المطور",
+            "required": true,
+            "value": "5363951902"
+        },
+        "ASSID": {
+            "description": "",
+            "required": true,
+            "value": ""
+        },
+        "ASSNAME": {
+            "description": "حط اي حاجه",
+            "required": true,
+            "value": ""
+        },
+        "ASSUSERNAME": {
+            "description": "يوز الحساب المساعد بدون @",
+            "required": true,
+            "value": ""
+        },
+        "BOT_ID": {
+            "description": "ايدي البوت بتاعك",
+            "required": true,
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "يوز البوت بدون @",
+            "required": true,
+            "value": ""
+        },
+        "BOT_NAME": {
+            "description": "اسم البوت",
+            "required": true,
+            "value": ""
+        },
+        "SUPPORT": {
+            "description": "رابط جروب الدعم",
+            "required": false,
+            "value": "ET_ALI"
+        },
+        "HEROKU_API_KEY": {
+            "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
+            "required": true,
+            "value": ""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Add the Heroku app name here. As filled in the top. It helps with restart bot.",
+            "required": true,
+            "value": ""
+        },
+        "UPSTREAM_REPO": {
+            "description": "الجت هب ",
+            "value": "https://github.com/bhkvlldu/MusicBot",
+            "required": true
+        },
+        "UPSTREAM_BRANCH": {
+            "description": "سبها و بطل لعب",
+            "value": "master",
+            "required": true
+        },
+        "API_ID": {
+            "description": "ايبي ايدي ضع هنا my.telegram.org/apps",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ايبي هاش ضع هنا my.telegram.org/apps",
+            "required": true,
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "ايدي المطورين و سبها لو مفيش غيرك",
+            "required": true,
+            "value": "5363951902"
+        },
+        "DURATION_LIMIT": {
+            "description": "سبها !",
+            "required": true,
+            "value": "180"
+        },
+        "BOT_TOKEN": {
+            "description": "حط توكن البوت يا روحي",
+            "required": true,
+            "value": ""
+        },
+        "MONGO_DB_URI": {
+            "description": "سبها",
+            "required": true,
+            "value": "mongodb://mongo:bJw7qSyg16WEGlrphSbV@containers-us-west-21.railway.app:6352"
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
