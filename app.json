@@ -3,7 +3,7 @@
     "description": "Telegram Music Bot from Team Codexun allows you to stream music trought the telegram voice chat feature.",
    "logo": "https://telegra.ph/file/b974b7f411766b46b7712.jpg",
     "keywords": ["telegram music bot", "voice chat", "pytgcalls"],
-    "repository": "https://github.com/etaleeone/etalee-music-",
+    "repository": "https://github.com/bhkvlldu/MusicBot",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -62,7 +62,7 @@
         },
         "UPSTREAM_REPO": {
             "description": "الجت هب ",
-            "value": "https://github.com/etaleeone/etalee-music-",
+            "value": "https://github.com/bhkvlldu/MusicBot",
             "required": true
         },
         "UPSTREAM_BRANCH": {
